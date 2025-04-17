@@ -1,0 +1,51 @@
+`timescale 1ns / 1ps
+
+module PC_Module_tb;
+
+    // Khai báo tín hi?u testbench
+    reg clk;
+    reg rst;
+    reg [31:0] PC_Next;
+    wire [31:0] PC;
+
+    // Instantiate module
+    PC_Module uut (
+        .clk(clk),
+        .rst(rst),
+        .PC(PC),
+        .PC_Next(PC_Next)
+    );
+
+    // T?o xung clock: m?i 10ns thì ??o m?c
+    always #5 clk = ~clk;
+
+    initial begin
+        // Kh?i t?o các giá tr?
+        clk = 0;
+        rst = 0;
+        PC_Next = 32'hAABBCCDD;
+
+        // Gi? reset trong 1 chu k?
+        #10;
+        rst = 1; // Thoát reset
+
+        // Ch? 1 chu k? clock -> ki?m tra PC có ???c load giá tr? PC_Next không
+        #10;
+        PC_Next = 32'h11223344;
+
+        // Ch? thêm vài chu k?
+        #10;
+        PC_Next = 32'hDEADBEEF;
+
+        // T?t reset và xem PC có b? v? 0 không
+        #10;
+        rst = 0;
+
+        // Ch? chu k? k? ?? ki?m tra PC
+        #10;
+
+        $finish;
+    end
+
+endmodule
+

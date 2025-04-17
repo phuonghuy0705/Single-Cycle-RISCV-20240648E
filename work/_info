@@ -1,0 +1,587 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ModelSim2/RISCV2
+vALU
+Z0 !s110 1744905969
+!i10b 1
+!s100 @70X^[J[QfEiRzdSG<STS2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:iYcG2iVY3UIF5N<7XZSo2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/ModelSim2/RISCV
+Z4 w1711048282
+8D:\ModelSim2\RISC--V-Processor-main\ALU.v
+FD:\ModelSim2\RISC--V-Processor-main\ALU.v
+!i122 162
+L0 1 27
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1744905969.000000
+Z7 !s107 D:\ModelSim2\RISC--V-Processor-main\Mux.v|D:\ModelSim2\RISC--V-Processor-main\PC_Adder.v|D:\ModelSim2\RISC--V-Processor-main\Data_Memory.v|D:\ModelSim2\RISC--V-Processor-main\Main_Decoder.v|D:\ModelSim2\RISC--V-Processor-main\ALU_Decoder.v|D:\ModelSim2\RISC--V-Processor-main\Control_Unit_Top.v|D:\ModelSim2\RISC--V-Processor-main\ALU.v|D:\ModelSim2\RISC--V-Processor-main\Sign_Extend.v|D:\ModelSim2\RISC--V-Processor-main\Register_File.v|D:\ModelSim2\RISC--V-Processor-main\Instruction_Memory.v|D:\ModelSim2\RISC--V-Processor-main\PC.v|D:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@a@l@u
+vALU_Decoder
+R0
+!i10b 1
+!s100 C6k:X7dGf67X?R?ZRC_;>0
+R1
+IiU:faKI6kKVOJ=Z_O0PGS2
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\ALU_Decoder.v
+FD:\ModelSim2\RISC--V-Processor-main\ALU_Decoder.v
+!i122 162
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@a@l@u_@decoder
+vALU_Decoder_tb
+Z11 !s110 1744905970
+!i10b 1
+!s100 71bDmh17IgzD6VHW3O=<=1
+R1
+Ih9d;N0RA5?CnMKRTgY[F:1
+R2
+R3
+w1744898978
+8D:/ModelSim2/RISC--V-Processor-main/ALU_Decoder_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/ALU_Decoder_Tb.v
+!i122 164
+L0 3 65
+R5
+r1
+!s85 0
+31
+Z12 !s108 1744905970.000000
+!s107 D:/ModelSim2/RISC--V-Processor-main/ALU_Decoder_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/ALU_Decoder_Tb.v|
+!i113 1
+R9
+R10
+n@a@l@u_@decoder_tb
+vALU_tb
+R11
+!i10b 1
+!s100 ?@i<PZ8[`VdT=zO9L8b@N0
+R1
+IUHfVPYka7ZESURmomHb4H1
+R2
+R3
+w1744893890
+8D:/ModelSim2/RISC--V-Processor-main/ALU_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/ALU_Tb.v
+!i122 165
+L0 3 79
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/ALU_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/ALU_Tb.v|
+!i113 1
+R9
+R10
+n@a@l@u_tb
+vControl_Unit_Top
+R0
+!i10b 1
+!s100 AE1bkcfiKBeaf9YaA1kJb3
+R1
+I[;VB26]Khfia5RQO2Cfb=2
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\Control_Unit_Top.v
+FD:\ModelSim2\RISC--V-Processor-main\Control_Unit_Top.v
+!i122 162
+L0 4 31
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@control_@unit_@top
+vControl_Unit_Top_tb
+R11
+!i10b 1
+!s100 RIiK6C=:8FmNMY@jX2[cB0
+R1
+I_aGCddPNk6KS_2[R?[6LU3
+R2
+R3
+w1744898970
+8D:/ModelSim2/RISC--V-Processor-main/Control_Unit_Top_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Control_Unit_Top_Tb.v
+!i122 166
+Z13 L0 3 60
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/Control_Unit_Top_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Control_Unit_Top_Tb.v|
+!i113 1
+R9
+R10
+n@control_@unit_@top_tb
+vData_Memory
+R0
+!i10b 1
+!s100 ILCDLiJ9N=9^RA`HVID2z0
+R1
+Ic1Zh:W]dA=]gRlVJ]^DC@2
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\Data_Memory.v
+FD:\ModelSim2\RISC--V-Processor-main\Data_Memory.v
+!i122 162
+Z14 L0 1 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@data_@memory
+vData_Memory_tb
+R11
+!i10b 1
+!s100 =lb0RaO4gM7b`=4zI6Rc62
+R1
+I^<5BW^cGfd2l?]TF4X3WC3
+R2
+R3
+w1744899014
+8D:/ModelSim2/RISC--V-Processor-main/Data_memory_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Data_memory_Tb.v
+!i122 167
+R13
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/Data_memory_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Data_memory_Tb.v|
+!i113 1
+R9
+R10
+n@data_@memory_tb
+vInstruction_Memory
+R0
+!i10b 1
+!s100 ^nH<Mhc<j`=6XHzS`Jj3U1
+R1
+IfSEH0;IlT@^TkEm>aF:5I3
+R2
+R3
+w1744904695
+8D:\ModelSim2\RISC--V-Processor-main\Instruction_Memory.v
+FD:\ModelSim2\RISC--V-Processor-main\Instruction_Memory.v
+!i122 162
+L0 1 32
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@instruction_@memory
+vInstruction_Memory_tb
+R11
+!i10b 1
+!s100 :WMg;:[83jh?8hmT7nmZD3
+R1
+IZXAYb7B;7H]c0gD9Bz8K13
+R2
+R3
+w1744898923
+8D:/ModelSim2/RISC--V-Processor-main/Instruction_Memory_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Instruction_Memory_Tb.v
+!i122 168
+L0 3 36
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/Instruction_Memory_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Instruction_Memory_Tb.v|
+!i113 1
+R9
+R10
+n@instruction_@memory_tb
+vMain_Decoder
+R0
+!i10b 1
+!s100 9`FDMg@fEROWm?_T;3J_O2
+R1
+I8ADn:joLjKaiMh>PPzc2>3
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\Main_Decoder.v
+FD:\ModelSim2\RISC--V-Processor-main\Main_Decoder.v
+!i122 162
+R14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@main_@decoder
+vMain_Decoder_tb
+R11
+!i10b 1
+!s100 `J5cX7jRSO:GYgXlEV1L31
+R1
+Io0W`X@Icz_<:OicJT;JN43
+R2
+R3
+w1744898999
+8D:/ModelSim2/RISC--V-Processor-main/Main_Decoder_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Main_Decoder_Tb.v
+!i122 169
+L0 3 63
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/Main_Decoder_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Main_Decoder_Tb.v|
+!i113 1
+R9
+R10
+n@main_@decoder_tb
+vMux
+R11
+!i10b 1
+!s100 6:PYXUnM79@A>`2:H>Vhd1
+R1
+ImKeX;0zLXV6]3VEPYnb5_2
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\Mux.v
+FD:\ModelSim2\RISC--V-Processor-main\Mux.v
+!i122 162
+L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@mux
+vMux_tb
+R11
+!i10b 1
+!s100 LEl4XI2E[T]XaSoKaEN3M3
+R1
+IX?RdlBiA^^eVNi<4E6Q0S1
+R2
+R3
+w1744898987
+8D:/ModelSim2/RISC--V-Processor-main/Mux_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Mux_Tb.v
+!i122 170
+L0 3 47
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/Mux_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Mux_Tb.v|
+!i113 1
+R9
+R10
+n@mux_tb
+vPC_Adder
+R0
+!i10b 1
+!s100 4I:4@`N0P_Fn52znil?Rf0
+R1
+IdHGa?bk4SDkneR>aF1[Ja0
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\PC_Adder.v
+FD:\ModelSim2\RISC--V-Processor-main\PC_Adder.v
+!i122 162
+L0 1 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@p@c_@adder
+vPC_Adder_tb
+Z15 !s110 1744905971
+!i10b 1
+!s100 2@?1YELZ6iWlR_0;HXm>d1
+R1
+I8JlCGLo?QPeC71I<ken]J0
+R2
+R3
+w1744898875
+8D:/ModelSim2/RISC--V-Processor-main/PC_Adder_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/PC_Adder_Tb.v
+!i122 171
+L0 3 41
+R5
+r1
+!s85 0
+31
+Z16 !s108 1744905971.000000
+!s107 D:/ModelSim2/RISC--V-Processor-main/PC_Adder_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/PC_Adder_Tb.v|
+!i113 1
+R9
+R10
+n@p@c_@adder_tb
+vPC_Module
+R0
+!i10b 1
+!s100 FN;ZalIz=VYIS`NleWb4Y0
+R1
+IfnlOClSaZWkJ^>L>n0XlC2
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\PC.v
+FD:\ModelSim2\RISC--V-Processor-main\PC.v
+!i122 162
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@p@c_@module
+vPC_Module_tb
+R15
+!i10b 1
+!s100 Dbb=jO@]aHYlY^40^;;:e1
+R1
+IMZTBCKo9_WQheFz4_j]MK0
+R2
+R3
+w1744898841
+8D:/ModelSim2/RISC--V-Processor-main/PC_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/PC_Tb.v
+!i122 172
+L0 3 39
+R5
+r1
+!s85 0
+31
+R16
+!s107 D:/ModelSim2/RISC--V-Processor-main/PC_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/PC_Tb.v|
+!i113 1
+R9
+R10
+n@p@c_@module_tb
+vRegister_File
+R0
+!i10b 1
+!s100 8i14XCI2RV1kYl<j84V]G1
+R1
+IZVbnE^clOoUKR[PfGQE7^1
+R2
+R3
+w1744905963
+8D:\ModelSim2\RISC--V-Processor-main\Register_File.v
+FD:\ModelSim2\RISC--V-Processor-main\Register_File.v
+!i122 162
+L0 1 35
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@register_@file
+vRegister_File_tb
+R15
+!i10b 1
+!s100 n]:2H0TgMz0deE2R^fh<:1
+R1
+IH^BCLO@DiRoRHUP__LjnB3
+R2
+R3
+w1744898945
+8D:/ModelSim2/RISC--V-Processor-main/Register_File_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Register_File_Tb.v
+!i122 173
+L0 3 64
+R5
+r1
+!s85 0
+31
+R16
+!s107 D:/ModelSim2/RISC--V-Processor-main/Register_File_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Register_File_Tb.v|
+!i113 1
+R9
+R10
+n@register_@file_tb
+vSign_Extend
+R0
+!i10b 1
+!s100 5S8kLk6k@J87d=nj8md9@2
+R1
+InXWh8lN;FzgQ>la9F84V51
+R2
+R3
+R4
+8D:\ModelSim2\RISC--V-Processor-main\Sign_Extend.v
+FD:\ModelSim2\RISC--V-Processor-main\Sign_Extend.v
+!i122 162
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@sign_@extend
+vSign_Extend_tb
+R15
+!i10b 1
+!s100 ;z2XN9CA]zhY5eBmMh;US0
+R1
+IbbGWGQ>f;Xj;jnHUc:;F?1
+R2
+R3
+w1744898959
+8D:/ModelSim2/RISC--V-Processor-main/Sign_Extend_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Sign_Extend_Tb.v
+!i122 174
+L0 3 43
+R5
+r1
+!s85 0
+31
+R16
+!s107 D:/ModelSim2/RISC--V-Processor-main/Sign_Extend_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Sign_Extend_Tb.v|
+!i113 1
+R9
+R10
+n@sign_@extend_tb
+vSingle_Cycle_Top
+R11
+!i10b 1
+!s100 E;Q194K0c>kJ0Bl?cmRXN1
+R1
+I@=TPiBzO3ifJki^g^aE@:0
+R2
+R3
+w1744882074
+8D:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top.v
+FD:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top.v
+!i122 162
+L0 11 94
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@single_@cycle_@top
+vSingle_Cycle_Top_Tb
+R11
+!i10b 1
+!s100 9mRR[1@O>Ud9e`m`InJ341
+R1
+IW>^4VhKNf:YaNNUe5:J8f1
+R2
+R3
+R4
+8D:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top_Tb.v
+FD:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top_Tb.v
+!i122 163
+L0 1 31
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top_Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim2/RISC--V-Processor-main/Single_Cycle_Top_Tb.v|
+!i113 1
+R9
+R10
+n@single_@cycle_@top_@tb

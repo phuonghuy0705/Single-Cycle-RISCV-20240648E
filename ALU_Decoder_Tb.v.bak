@@ -1,0 +1,69 @@
+`timescale 1ns / 1ps
+
+module ALU_Decoder_tb;
+
+    // Inputs
+    reg [1:0] ALUOp;
+    reg [2:0] funct3;
+    reg [6:0] funct7, op;
+
+    // Output
+    wire [2:0] ALUControl;
+
+    // Instantiate DUT
+    ALU_Decoder uut (
+        .ALUOp(ALUOp),
+        .funct3(funct3),
+        .funct7(funct7),
+        .op(op),
+        .ALUControl(ALUControl)
+    );
+
+    initial begin
+        $display("---- ALU_Decoder Testbench ----");
+
+        // Test case 1: ALUOp = 00 (load/store), expect ALUControl = 000 (ADD)
+        ALUOp = 2'b00; funct3 = 3'b000; funct7 = 7'b0000000; op = 7'b0000011;
+        #10;
+        $display("ALUOp=00 => ALUControl = %b (Expect: 000)", ALUControl);
+
+        // Test case 2: ALUOp = 01 (branch), expect ALUControl = 001 (SUB)
+        ALUOp = 2'b01; funct3 = 3'b000; funct7 = 7'b0000000; op = 7'b1100011;
+        #10;
+        $display("ALUOp=01 => ALUControl = %b (Expect: 001)", ALUControl);
+
+        // Test case 3: ALUOp = 10, funct3 = 000, op[5]=1, funct7[5]=1 => SUB
+        ALUOp = 2'b10; funct3 = 3'b000; funct7 = 7'b0010000; op = 7'b0110011; // op[5]=1, funct7[5]=1
+        #10;
+        $display("SUB instruction => ALUControl = %b (Expect: 001)", ALUControl);
+
+        // Test case 4: ALUOp = 10, funct3 = 000, op[5]=0, funct7[5]=0 => ADD
+        ALUOp = 2'b10; funct3 = 3'b000; funct7 = 7'b0000000; op = 7'b0010011; // op[5]=0, funct7[5]=0
+        #10;
+        $display("ADD instruction => ALUControl = %b (Expect: 000)", ALUControl);
+
+        // Test case 5: ALUOp = 10, funct3 = 010 => SLT
+        ALUOp = 2'b10; funct3 = 3'b010;
+        #10;
+        $display("SLT instruction => ALUControl = %b (Expect: 101)", ALUControl);
+
+        // Test case 6: ALUOp = 10, funct3 = 110 => OR
+        ALUOp = 2'b10; funct3 = 3'b110;
+        #10;
+        $display("OR instruction => ALUControl = %b (Expect: 011)", ALUControl);
+
+        // Test case 7: ALUOp = 10, funct3 = 111 => AND
+        ALUOp = 2'b10; funct3 = 3'b111;
+        #10;
+        $display("AND instruction => ALUControl = %b (Expect: 010)", ALUControl);
+
+        // Test case 8: ALUOp = 10, funct3 = 100 => XOR
+        ALUOp = 2'b10; funct3 = 3'b100;
+        #10;
+        $display("XOR instruction => ALUControl = %b (Expect: 111)", ALUControl);
+
+        $finish;
+    end
+
+endmodule
+
